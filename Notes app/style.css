@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    color: #f0e8d4;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background:  #1d1a1b;;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.visible{
+opacity: 1;
+}
+
+nav {
+     height: 10vh;
+     width: 100%;
+     padding: 0 15px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+
+}
+
+.signin-signup{
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    font-family: Phantomsans, sans-serif;
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+    
+    
+}
+
+.signin-signup:hover{
+    border: 2px solid #f0e8d4;
+}
+
+
+main {
+    height: 90vh;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main > div{
+    width: 50%;
+
+}
+
+.left-section{
+    transform: translateY(-50%);
+}
+
+.heading{
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    
+    
+    
+}
+
+.sub-heading{
+    font-family: Phantomsans, sans-serif;
+    letter-spacing: 3px;
+}
+
+.back-image{
+    width: 80%;
+    
+    
+}
+
+.back-image:hover {
+    scale: 105%;
+    transform: rotateY(360deg);
+  }

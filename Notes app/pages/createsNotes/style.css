@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    color: #eee8d9;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background:  #1d1a1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}    
+
+.create-notes-container{
+    padding: 30px;
+    min-height: 450px;
+    width: 400px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.heading{
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: 3px;
+    
+}
+.create-note-title{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 3px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+
+.create-note-input{
+    background:rgba(255, 255, 255, 0.3) ;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.create-note-input:focus,
+.create-note-title:focus {
+    outline: none;
+}
+
+.create-note-button{
+    margin-top: 25px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background:transparent;
+    font-family: Phantomsans, sans-serif;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+.create-note-button:hover { 
+    border: 0.5px solid #f0e8d4;
+
+}

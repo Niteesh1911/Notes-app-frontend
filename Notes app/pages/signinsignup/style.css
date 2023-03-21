@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    color: #eee8d9;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background:  #1d1a1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+main {
+    height: 90vh;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-section{
+    margin-left: 50px;
+   margin: 50px;
+    padding: 20px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    font-family: Phantomsans, sans-serif;
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.right-section{
+    margin-left: 50px;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    font-family: Phantomsans, sans-serif;
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.heading{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 3px; 
+}
+
+#username , #email , #password, #signin-password ,#email-sign-in, #confirm-password {
+    outline: none;
+    text-decoration-color: #1d1a1b;
+
+}
+.submit-1, .submit-2{
+    height: 40px;
+    width : 100px;
+    margin-left: 125px;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background:transparent;
+    font-family: Phantomsans, sans-serif;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+    border: none;
+}
+.submit-1:hover ,.submit-2:hover {
+    border: 0.5px solid #f0e8d4;
+}
+
+input{
+    margin: 30px;
+    background:rgba(255, 255, 255, 0.3) ;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    color:  #eee8d9;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+}
+nav {
+    height: 10vh;
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.Cancel{
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    font-family: Phantomsans, sans-serif;
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+.Cancel:hover{
+    border: 0.5px solid #f0e8d4;
+}
